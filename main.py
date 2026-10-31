@@ -18,7 +18,7 @@ class Apartment(BaseModel):
     key: str
     name: str
     location: str
-    area_m2: bool
+    area_m2: int
     rooms: Dict[str, Room]
 
     @staticmethod
