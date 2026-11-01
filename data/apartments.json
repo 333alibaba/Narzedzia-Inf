@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "apart-polanka": {
         "key": "apart-polanka",
@@ -16,3 +17,23 @@
         }
     } 
 }
+=======
+{
+    "apart-polanka": {
+        "key": "apart-polanka",
+        "name": "Polanka",
+        "location": "Polanka 3a",
+        "area_m2": 65,
+        "rooms": {
+            "room-bigger": {
+                "name": "Bigger Room",
+                "area_m2": 20
+            },
+            "room-smaller": {
+                "name": "Smaller Room",
+                "area_m2": 15
+            }
+        }
+    } 
+}
+>>>>>>> 1283b716cda73e6b50f1afa5257a99321d65eb92
