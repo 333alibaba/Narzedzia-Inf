@@ -1,0 +1,14 @@
+{
+    "bill-1": {
+        "amount": 550.1,
+        "payDate": "2026-10-2",
+        "billType": "rent",
+        "apartment": "apart-polanka"
+    },
+    "bill-2": {
+        "amount": 30.4,
+        "payDate": "2026-10-5",
+        "billType": "internet",
+        "apartment": "apart-polanka"
+    }
+}

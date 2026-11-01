@@ -13,7 +13,20 @@ class Room(BaseModel):
     name: str
     area_m2: float
 
+class Bill(BaseModel):
+    amount: float
+    payDate: str
+    billType: str
+    apartment: str
 
+    @staticmethod
+    def from_json_file(file_path: str) -> Dict[str,'Apartment']:
+            data = None
+            with open(file_path, 'r') as file:
+                data = json.load(file)
+            assert isinstance(data, dict), "Expected a dictionary of apartments"
+            return {key: Bill(**bill) for key, bill in data.items()}
+    
 class Apartment(BaseModel):
     key: str
     name: str
